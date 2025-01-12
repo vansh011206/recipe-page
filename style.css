@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+/* margin: 0;padding: 0; */
+}
+body {
+  background-color: rgb(221, 189, 99);
+  font-size: 11px;
+}
+
+.container {
+  margin: 200px auto;
+  /* width: 35vw; */
+  max-width: 800px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.para {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.top-heading {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.heading {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(107, 21, 21);
+}
+
+h4 {
+  color: rgb(109, 0, 60);
+  margin-left: 20px;
+}
+
+.prep {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid rgba(227, 194, 255, 0.1);
+  background-color: rgba(227, 194, 255, 0.1);
+}
+
+.content {
+  margin: 20px;
+}
+
+li span {
+  font-weight: 500;
+}
+
+img {
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.quantities {
+  width: 60%;
+  margin: auto;
+}
+
+.nutri {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nutri1 {
+  color: rgb(107, 21, 21);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+  }
+
+  body {
+    /* max-height: fit-content; */
+    padding: 0;
+  }
+}
